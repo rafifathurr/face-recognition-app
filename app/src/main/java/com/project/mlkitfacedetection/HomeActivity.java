@@ -150,13 +150,13 @@ public class HomeActivity extends AppCompatActivity {
         if (!isUpperAxisX || !isUnderAxisX) {
             if (!isUpperAxisX) {
                 stepTextView.setText("Wajah Menghadap Keatas");
-                if (face.getHeadEulerAngleX() > 10.0) {
+                if (face.getHeadEulerAngleX() > 15.0) {
                     isUpperAxisX = true;
                 }
             } else {
                 if (!isUnderAxisX) {
                     stepTextView.setText("Wajah Menghadap Kebawah");
-                    if (face.getHeadEulerAngleX() < -10.0) {
+                    if (face.getHeadEulerAngleX() < -15.0) {
                         isUnderAxisX = true;
                     }
                 }
@@ -171,13 +171,13 @@ public class HomeActivity extends AppCompatActivity {
         if (!isRightAxisY || !isLeftAxisY) {
             if (!isRightAxisY) {
                 stepTextView.setText("Wajah Menghadap Kekanan");
-                if (face.getHeadEulerAngleY() < -10.0) {
+                if (face.getHeadEulerAngleY() < -15.0) {
                     isRightAxisY = true;
                 }
             } else {
                 if (!isLeftAxisY) {
                     stepTextView.setText("Wajah Menghadap Kekiri");
-                    if (face.getHeadEulerAngleY() > 10.0) {
+                    if (face.getHeadEulerAngleY() > 15.0) {
                         isLeftAxisY = true;
                     }
                 }
