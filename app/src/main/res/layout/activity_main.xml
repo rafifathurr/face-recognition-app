@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/homeImg"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:src="@mipmap/face_scan" />
+
+    <TextView
+        android:id="@+id/titleTxtVw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="20dp"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-medium"
+        android:text="Face Recognition System"
+        android:textStyle="bold"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/startRecognizeBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Start Recognize"
+        android:backgroundTint="#3282B8"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
