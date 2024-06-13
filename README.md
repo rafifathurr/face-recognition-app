@@ -1,1 +1,1 @@
-# Face Recognition and Liveness Detection with Google MLKit
+# Mobile Face Recognition and Liveness Detection with Google MLKit
