@@ -1,1 +1,1 @@
-# Face Recognation and Liveness Android use Google MLkit
+# Face Recognition and Liveness Detection with Google MLKit
